@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/table-of-contents/with-toc/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/table-of-contents/with-toc/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/table-of-contents/without-toc/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/table-of-contents/without-toc/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/creating-a-new-theme/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/migrate-from-jekyll/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/table-of-contents/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/table-of-contents/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/2nd/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/2nd/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/goisforlovers/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/categories/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/categories/development/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/development/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/hugoisforlovers/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/go/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/categories/golang/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/golang/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/hugo/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/templates/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/themes/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/2nd/3rd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/av1/hidden/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/buttons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/columns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/expand/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/hints/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/katex/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/mermaid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples2/tabs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/2nd/3rd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/examples/hidden/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/</loc>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+  </url>
+  
+</urlset>
