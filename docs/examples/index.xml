@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example Site on Marco Sousa Blog</title>
+    <title>Example Site on Gaap.dev Blog</title>
     <link>http://www.gaap.dev/docs/examples/</link>
-    <description>Recent content in Example Site on Marco Sousa Blog</description>
+    <description>Recent content in Example Site on Gaap.dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
