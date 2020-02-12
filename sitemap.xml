@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://www.gaap.dev/docs/av1/</loc>
-    <lastmod>2020-02-10T14:15:41+01:00</lastmod>
+    <lastmod>2020-02-10T17:15:28+01:00</lastmod>
   </url>
   
   <url>
@@ -23,16 +23,6 @@
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/posts/creating-a-new-theme/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/posts/migrate-from-jekyll/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.gaap.dev/docs/examples/table-of-contents/</loc>
     <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
@@ -43,68 +33,53 @@
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/posts/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <loc>http://www.gaap.dev/tags/5g/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/posts/goisforlovers/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <loc>http://www.gaap.dev/categories/android/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/android/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/posts/2020/02/android-mobile-chipset-state-of-play-2020/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/categories/av1/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.gaap.dev/tags/av1/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/categories/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/categories/development/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <loc>http://www.gaap.dev/tags/chipset/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/tags/development/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/posts/hugoisforlovers/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/tags/go/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/categories/golang/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/tags/golang/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/tags/hugo/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <loc>http://www.gaap.dev/posts/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/tags/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/tags/templates/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.gaap.dev/tags/themes/</loc>
-    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
