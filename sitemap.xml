@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://www.gaap.dev/docs/av1/</loc>
-    <lastmod>2020-03-06T15:51:08+01:00</lastmod>
+    <lastmod>2020-05-05T17:26:52+02:00</lastmod>
   </url>
   
   <url>
@@ -38,12 +38,12 @@
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/categories/android/</loc>
+    <loc>http://www.gaap.dev/tags/android/</loc>
     <lastmod>2020-02-12T14:43:18+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/tags/android/</loc>
+    <loc>http://www.gaap.dev/categories/android/</loc>
     <lastmod>2020-02-12T14:43:18+01:00</lastmod>
   </url>
   
@@ -53,12 +53,12 @@
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/categories/av1/</loc>
+    <loc>http://www.gaap.dev/tags/av1/</loc>
     <lastmod>2020-02-12T14:43:18+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.gaap.dev/tags/av1/</loc>
+    <loc>http://www.gaap.dev/categories/av1/</loc>
     <lastmod>2020-02-12T14:43:18+01:00</lastmod>
   </url>
   
@@ -89,47 +89,47 @@
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/buttons/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/columns/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/expand/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/hints/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/katex/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/mermaid/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples2/tabs/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples/2nd/3rd/4th/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.gaap.dev/docs/examples/2nd/3rd/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-08T07:43:38+01:00</lastmod>
   </url>
   
   <url>
@@ -139,6 +139,7 @@
   
   <url>
     <loc>http://www.gaap.dev/docs/</loc>
+    <lastmod>2020-05-05T17:26:52+02:00</lastmod>
   </url>
   
   <url>
