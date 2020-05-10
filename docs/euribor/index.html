@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Docs"><meta property="og:title" content="Docs" />
+<meta name="description" content="EURIBOR"><meta property="og:title" content="EURIBOR" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.gaap.dev/docs/" />
+<meta property="og:url" content="http://www.gaap.dev/docs/euribor/" />
 
-<title>Docs | Gaap.dev Blog</title>
+<title>EURIBOR | Gaap.dev Blog</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
@@ -29,7 +29,7 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-<link rel="alternate" type="application/rss+xml" href="http://www.gaap.dev/docs/index.xml" title="Gaap.dev Blog" />
+<link rel="alternate" type="application/rss+xml" href="http://www.gaap.dev/docs/euribor/index.xml" title="Gaap.dev Blog" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -95,7 +95,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Docs</strong>
+  <strong>EURIBOR</strong>
 
   <label for="toc-control">
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -107,7 +107,7 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  
+  <nav id="TableOfContents"></nav>
 
 
     </aside>
@@ -116,7 +116,17 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
-<article class="markdown"></article>
+<article class="markdown"><p><strong>Euribor</strong></p>
+<ul>
+{{ $urlPre := "https://rdq6c8fzp7.execute-api.us-east-1.amazonaws.com" }}
+{{ $tableJ := getJSON $urlPre "/api_euribor" }}
+  {{ range first 5 $tableJ }}
+    {{ if .public }}
+      <li><a href="{{ .html_url }}" target="_blank">{{ .description }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
+</article>
  
 
       <footer class="book-footer">
@@ -132,6 +142,29 @@ https://github.com/alex-shpak/hugo-book
  
         
   
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gaapdev" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
  
       </footer>
       <a href="mailto:web@gaap.dev">web@gaap.dev</a>
@@ -140,7 +173,7 @@ https://github.com/alex-shpak/hugo-book
     
     <aside class="book-toc">
       
-  
+  <nav id="TableOfContents"></nav>
 
  
     </aside>
