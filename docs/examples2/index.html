@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir=>
 
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Docs\examples2\"><meta property="og:title" content="" />
+<meta name="description" content="Buttons #  Buttons are styled links that can lead to local page or external link.
+{{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}} Example #   Get Home  Contribute  Columns #  Columns help organize shorter pieces of content horizontally for readability.
+{{&lt; columns &gt;}} &lt;!-- begin columns block --&gt; # Left Content Lorem markdownum insigne... &lt;---&gt; &lt;!-- magic sparator, between columns --&gt; # Mid Content Lorem markdownum insigne.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.gaap.dev/docs/examples2/" />
 
-<title>Docs\examples2\ | Gaap.dev Blog</title>
+<title>Examples2 | Gaap.dev Blog</title>
+<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="/book.min.66d2f6926159dd697150bdcd901eead56a7adc9408513ccb9ab553939262dd4c.css" integrity="sha256-ZtL2kmFZ3WlxUL3NkB7q1Wp63JQIUTzLmrVTk5Ji3Uw=">
-
-
-<script defer src="/en.search.min.25d6088ce376aa040fabda5ece0c1cf5036f848ba0782b2533ec6f0e9e57034a.js" integrity="sha256-JdYIjON2qgQPq9pezgwc9QNvhIugeCslM&#43;xvDp5XA0o="></script>
+<link rel="stylesheet" href="/book.min.1205ebacf147e31d6bd6f74be1ef8d96f4bb2c4943c68e5a39b4e988a774a2b0.css" integrity="sha256-EgXrrPFH4x1r1vdL4e&#43;NlvS7LElDxo5aObTpiKd0orA=">
+<script defer src="/en.search.min.8e9c47290600f53acf4f054c41a2fa625588a27093a8cff516151d9565dfbb98.js" integrity="sha256-jpxHKQYA9TrPTwVMQaL6YlWIonCTqM/1FhUdlWXfu5g="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -28,7 +28,6 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-
 <link rel="alternate" type="application/rss+xml" href="http://www.gaap.dev/docs/examples2/index.xml" title="Gaap.dev Blog" />
 <!--
 Made with Book Theme
@@ -38,7 +37,7 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body>
+<body dir=>
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
@@ -52,9 +51,15 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-search">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner spinner hidden"></div>
+  <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
+
+
+
+
+
 
 
 
@@ -71,6 +76,11 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li><a href="/docs/av1/">AV1/AVIF Codec</a></li>
 </ul>
+
+
+
+
+
 
 
 
@@ -95,10 +105,12 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Docs\examples2\</strong>
+  <strong>Examples2</strong>
 
   <label for="toc-control">
+    
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
   </label>
 </div>
 
@@ -154,11 +166,18 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
-<article class="markdown"><h1 id="buttons">Buttons</h1>
+      
+  <article class="markdown"><h1 id="buttons">
+  Buttons
+  <a class="anchor" href="#buttons">#</a>
+</h1>
 <p>Buttons are styled links that can lead to local page or external link.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">button</span> <span style="color:#a6e22e">relref</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#f92672">[</span><span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;...&#34;</span><span style="color:#f92672">]</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>Get Home<span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">button</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">button</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://github.com/alex-shpak/hugo-book&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>Contribute<span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">button</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
-</code></pre></div><h2 id="example">Example</h2>
+</code></pre></div><h2 id="example">
+  Example
+  <a class="anchor" href="#example">#</a>
+</h2>
 <p>
 
 
@@ -180,7 +199,10 @@ https://github.com/alex-shpak/hugo-book
   Contribute
 </a>
 </p>
-<h1 id="columns">Columns</h1>
+<h1 id="columns">
+  Columns
+  <a class="anchor" href="#columns">#</a>
+</h1>
 <p>Columns help organize shorter pieces of content horizontally for readability.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">columns</span> &gt;}} <span style="color:#75715e">&lt;!-- begin columns block --&gt;</span>
 # Left Content
@@ -196,7 +218,10 @@ Lorem markdownum insigne...
 # Right Content
 Lorem markdownum insigne...
 {{&lt; /<span style="color:#f92672">columns</span> &gt;}}
-</code></pre></div><h2 id="example-1">Example</h2>
+</code></pre></div><h2 id="example-1">
+  Example
+  <a class="anchor" href="#example-1">#</a>
+</h2>
 <div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
@@ -223,7 +248,10 @@ Miseratus fonte Ditis conubia.
   
 </div>
 
-<h1 id="columns-1">Columns</h1>
+<h1 id="columns-1">
+  Columns
+  <a class="anchor" href="#columns-1">#</a>
+</h1>
 <p>Columns help organize shorter pieces of content horizontally for readability.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">columns</span> &gt;}} <span style="color:#75715e">&lt;!-- begin columns block --&gt;</span>
 # Left Content
@@ -239,7 +267,10 @@ Lorem markdownum insigne...
 # Right Content
 Lorem markdownum insigne...
 {{&lt; /<span style="color:#f92672">columns</span> &gt;}}
-</code></pre></div><h2 id="example-2">Example</h2>
+</code></pre></div><h2 id="example-2">
+  Example
+  <a class="anchor" href="#example-2">#</a>
+</h2>
 <div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
@@ -266,15 +297,25 @@ Miseratus fonte Ditis conubia.
   
 </div>
 
-<h1 id="expand">Expand</h1>
+<h1 id="expand">
+  Expand
+  <a class="anchor" href="#expand">#</a>
+</h1>
 <p>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.</p>
-<h2 id="example-3">Example</h2>
-<h3 id="default">Default</h3>
+<h2 id="example-3">
+  Example
+  <a class="anchor" href="#example-3">#</a>
+</h2>
+<h3 id="default">
+  Default
+  <a class="anchor" href="#default">#</a>
+</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">expand</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 ## Markdown content
 Lorem markdownum insigne...
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">expand</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
-</code></pre></div><div class="book-expand">
+</code></pre></div>
+<div class="book-expand">
   <label>
     <div class="book-expand-head flex justify-between">
       <span>Expand</span>
@@ -288,12 +329,16 @@ Lorem markdownum insigne...
   </label>
 </div>
 
-<h3 id="with-custom-label">With Custom Label</h3>
+<h3 id="with-custom-label">
+  With Custom Label
+  <a class="anchor" href="#with-custom-label">#</a>
+</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">expand</span> <span style="color:#e6db74">&#34;Custom Label&#34;</span> <span style="color:#e6db74">&#34;...&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 ## Markdown content
 Lorem markdownum insigne...
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">expand</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
-</code></pre></div><div class="book-expand">
+</code></pre></div>
+<div class="book-expand">
   <label>
     <div class="book-expand-head flex justify-between">
       <span>Custom Label</span>
@@ -310,7 +355,10 @@ Miseratus fonte Ditis conubia.
   </label>
 </div>
 
-<h1 id="hints">Hints</h1>
+<h1 id="hints">
+  Hints
+  <a class="anchor" href="#hints">#</a>
+</h1>
 <p>Hint shortcode can be used as hint/alerts/notification block.<br>
 There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">hint</span> <span style="color:#f92672">[</span><span style="color:#a6e22e">info</span><span style="color:#f92672">|</span><span style="color:#a6e22e">warning</span><span style="color:#f92672">|</span><span style="color:#a6e22e">danger</span><span style="color:#f92672">]</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
@@ -318,7 +366,10 @@ There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">hint</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
-</code></pre></div><h2 id="example-4">Example</h2>
+</code></pre></div><h2 id="example-4">
+  Example
+  <a class="anchor" href="#example-4">#</a>
+</h2>
 <blockquote class="book-hint info">
   <strong>Markdown content</strong><br>
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
@@ -337,9 +388,15 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 </blockquote>
 
-<h1 id="katex">KaTeX</h1>
+<h1 id="katex">
+  KaTeX
+  <a class="anchor" href="#katex">#</a>
+</h1>
 <p>KaTeX shortcode let you render math typesetting in markdown document. See <a href="https://katex.org/">KaTeX</a></p>
-<h2 id="example-5">Example</h2>
+<h2 id="example-5">
+  Example
+  <a class="anchor" href="#example-5">#</a>
+</h2>
 <div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
@@ -353,45 +410,44 @@ x = <span style="color:#66d9ef">\begin</span>{cases}
   </div>
   
   <div class="flex-even markdown-inner">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
-<span class="katex">
-  \(
-x = \begin{cases}
-   a &\text{if } b \\
-   c &\text{if } d
-\end{cases}
-\)
+    <link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(x = \begin{cases}
+   a &amp;\text{if } b \\
+   c &amp;\text{if } d
+\end{cases}\)
 </span>
 
   </div>
   
 </div>
 
-<h2 id="display-mode-example">Display Mode Example</h2>
-<p>Here is some inline example: 
-
-<span class="katex">
+<h2 id="display-mode-example">
+  Display Mode Example
+  <a class="anchor" href="#display-mode-example">#</a>
+</h2>
+<p>Here is some inline example: <span>
   \(\pi(x)\)
 </span>
 , rendered in the same line. And below is <code>display</code> example, having <code>display: block</code>
-
-
-<span class="katex">
-  \[
-x = \begin{cases}
-   a &\text{if } b \\
-   c &\text{if } d
-\end{cases}
-\]
+<span>
+  \[x = \begin{cases}
+   a &amp;\text{if } b \\
+   c &amp;\text{if } d
+\end{cases}\]
 </span>
 
 Text continues here.</p>
-<h1 id="mermaid-chart">Mermaid Chart</h1>
+<h1 id="mermaid-chart">
+  Mermaid Chart
+  <a class="anchor" href="#mermaid-chart">#</a>
+</h1>
 <p><a href="https://mermaidjs.github.io/">Mermaid</a> is library for generating svg charts and diagrams from text.</p>
-<h2 id="example-6">Example</h2>
+<h2 id="example-6">
+  Example
+  <a class="anchor" href="#example-6">#</a>
+</h2>
 <div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
@@ -412,6 +468,11 @@ sequenceDiagram
   
   <div class="flex-even markdown-inner">
     <script src="/mermaid.min.js"></script>
+<script>
+mermaid.initialize({
+  flowchart: { useMaxWidth:true }
+});
+</script>
 <p class="mermaid">
 sequenceDiagram
     Alice->>Bob: Hello Bob, how are you?
@@ -427,70 +488,57 @@ sequenceDiagram
   
 </div>
 
-<h1 id="tabs">Tabs</h1>
+<h1 id="tabs">
+  Tabs
+  <a class="anchor" href="#tabs">#</a>
+</h1>
 <p>Tabs let you organize content by context, for example installation instructions for each supported platform.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">tabs</span> <span style="color:#e6db74">&#34;uniqueid&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">tab</span> <span style="color:#e6db74">&#34;MacOS&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span> # MacOS Content <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">tab</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">tab</span> <span style="color:#e6db74">&#34;Linux&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span> # Linux Content <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">tab</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">tab</span> <span style="color:#e6db74">&#34;Windows&#34;</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span> # Windows Content <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">tab</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">tabs</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
-</code></pre></div><h2 id="example-7">Example</h2>
+</code></pre></div><h2 id="example-7">
+  Example
+  <a class="anchor" href="#example-7">#</a>
+</h2>
 
 
 
 
-<div class="book-tabs">
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
-  <label for="tabs-uniqueid-0">
-    MacOS
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <h1 id="macos">MacOS</h1>
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">MacOS</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="macos">MacOS</h1>
 <p>This is tab <strong>MacOS</strong> content.</p>
 <p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
 Miseratus fonte Ditis conubia.</p>
-
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
-  <label for="tabs-uniqueid-1">
-    Linux
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <h1 id="linux">Linux</h1>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">Linux</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="linux">Linux</h1>
 <p>This is tab <strong>Linux</strong> content.</p>
 <p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
 Miseratus fonte Ditis conubia.</p>
-
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
-  <label for="tabs-uniqueid-2">
-    Windows
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <h1 id="windows">Windows</h1>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">Windows</label>
+  <div class="book-tabs-content markdown-inner"><h1 id="windows">Windows</h1>
 <p>This is tab <strong>Windows</strong> content.</p>
 <p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
 Miseratus fonte Ditis conubia.</p>
-
-  </div>
-
-</div>
+</div></div>
 
 </article>
  
+      
 
       <footer class="book-footer">
         
-  <div class="flex justify-between">
+  <div class="flex flex-wrap justify-between">
 
 
 
@@ -499,7 +547,10 @@ Miseratus fonte Ditis conubia.</p>
 </div>
 
  
-        
+        <a href="mailto:web@gaap.dev">web@gaap.dev</a>
+      </footer>
+
+      
   
   <div class="book-comments">
 <div id="disqus_thread"></div>
@@ -525,8 +576,8 @@ Miseratus fonte Ditis conubia.</p>
 </div>
   
  
-      </footer>
-      <a href="mailto:web@gaap.dev">web@gaap.dev</a>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     

@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir=>
 
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="AV1 / AVIF"><meta property="og:title" content="AV1 / AVIF" />
+<meta name="description" content="AV1 Encoders and Decoders #  libaom
+ Source Code Binary win64   rav1e
+ Source Code Binary win64   SVT-AV1
+ Source Code Binary win64   Dav1d (Decoder)
+ Souce Code Binaries   AV1 Others
+ ffmpeg Universal Windows libgav1 AndroidOS   Avif Image Codec
+ AV1 Image File Format (AVIF) libavif Source Code AVIF polyfill for the browser Chrome Support Firefox Support Windows Support   Pub">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="AV1 / AVIF" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.gaap.dev/docs/av1/" />
 
 <title>AV1 / AVIF | Gaap.dev Blog</title>
+<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="/book.min.66d2f6926159dd697150bdcd901eead56a7adc9408513ccb9ab553939262dd4c.css" integrity="sha256-ZtL2kmFZ3WlxUL3NkB7q1Wp63JQIUTzLmrVTk5Ji3Uw=">
-
-
-<script defer src="/en.search.min.25d6088ce376aa040fabda5ece0c1cf5036f848ba0782b2533ec6f0e9e57034a.js" integrity="sha256-JdYIjON2qgQPq9pezgwc9QNvhIugeCslM&#43;xvDp5XA0o="></script>
+<link rel="stylesheet" href="/book.min.1205ebacf147e31d6bd6f74be1ef8d96f4bb2c4943c68e5a39b4e988a774a2b0.css" integrity="sha256-EgXrrPFH4x1r1vdL4e&#43;NlvS7LElDxo5aObTpiKd0orA=">
+<script defer src="/en.search.min.8e9c47290600f53acf4f054c41a2fa625588a27093a8cff516151d9565dfbb98.js" integrity="sha256-jpxHKQYA9TrPTwVMQaL6YlWIonCTqM/1FhUdlWXfu5g="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -28,7 +32,6 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-
 <link rel="alternate" type="application/rss+xml" href="http://www.gaap.dev/docs/av1/index.xml" title="Gaap.dev Blog" />
 <!--
 Made with Book Theme
@@ -38,7 +41,7 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body>
+<body dir=>
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
@@ -52,9 +55,15 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-search">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner spinner hidden"></div>
+  <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
+
+
+
+
+
 
 
 
@@ -71,6 +80,11 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li><a href="/docs/av1/"class=active>AV1/AVIF Codec</a></li>
 </ul>
+
+
+
+
+
 
 
 
@@ -98,7 +112,9 @@ https://github.com/alex-shpak/hugo-book
   <strong>AV1 / AVIF</strong>
 
   <label for="toc-control">
+    
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
   </label>
 </div>
 
@@ -127,8 +143,12 @@ https://github.com/alex-shpak/hugo-book
       </header>
 
       
-<article class="markdown"><p><img src="/images/av1/av1_small.png" alt="AV1 image"></p>
-<h2 id="av1-encoders-and-decoders">AV1 Encoders and Decoders</h2>
+      
+  <article class="markdown"><p><img src="/images/av1/av1_small.png" alt="AV1 image" /></p>
+<h2 id="av1-encoders-and-decoders">
+  AV1 Encoders and Decoders
+  <a class="anchor" href="#av1-encoders-and-decoders">#</a>
+</h2>
 <div class="book-columns flex flex-wrap">
   
   <div class="flex-even markdown-inner">
@@ -202,70 +222,50 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<div class="book-tabs">
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
-  <label for="tabs-uniqueid-0">
-    Others Resources
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">Others Resources</label>
+  <div class="book-tabs-content markdown-inner"><ul>
 <li><a href="https://aomedia.org/">Alliance for Open Media</a></li>
 <li><a href="https://forum.doom9.org/showthread.php?t=172550&amp;goto=newpost">Forum doom9 AV1</a></li>
 <li><a href="https://ffmpeg.zeranoe.com/builds/">FFmpeg Windows/Mac</a></li>
 <li><a href="https://hub.docker.com/r/singhkays/ffmpeg-av1-libaom">Docker with ffmpeg/libaom/x264/x265/libvpx/fdk_aac/opus/vmaf</a></li>
 </ul>
-
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
-  <label for="tabs-uniqueid-1">
-    GUI&#39;s
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">GUI&#39;s</label>
+  <div class="book-tabs-content markdown-inner"><ul>
 <li><a href="https://handbrake.fr/">HandBrake</a></li>
 <li><a href="https://github.com/staxrip/staxrip">StaxRip</a></li>
 <li><a href="https://github.com/Nevcairiel/LAVFilters">LAVFilters</a></li>
 <li><a href="https://moisescardona.me/rav1e-gui/">rav1e-gui</a></li>
 </ul>
-
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
-  <label for="tabs-uniqueid-2">
-    AV1 samples
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">AV1 samples</label>
+  <div class="book-tabs-content markdown-inner"><ul>
 <li><a href="https://www.elecard.com/videos">Elecard</a></li>
 <li><a href="http://download.opencontent.netflix.com/?prefix=AV1/">Netflix AV1</a></li>
 <li><a href="http://35.185.250.137:8080/#">Visionular AV1</a></li>
 </ul>
-
-  </div>
-
-  <input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-3"  />
-  <label for="tabs-uniqueid-3">
-    AVIF samples
-  </label>
-  <div class="book-tabs-content markdown-inner">
-    <ul>
+</div><input type="radio" class="hidden" name="tabs-uniqueid" id="tabs-uniqueid-3"  />
+  <label for="tabs-uniqueid-3">AVIF samples</label>
+  <div class="book-tabs-content markdown-inner"><ul>
 <li><a href="http://download.opencontent.netflix.com/?prefix=AV1/Chimera/AVIF/">Netflix Website Avif samples</a></li>
 <li><a href="https://github.com/AOMediaCodec/av1-avif/tree/master/testFiles/Netflix/avif">Netflix Avif testFiles</a></li>
 <li><a href="https://github.com/AOMediaCodec/av1-avif/tree/master/testFiles/Netflix/avifs">Netflix Avifs testFiles</a></li>
 <li><a href="https://github.com/AOMediaCodec/av1-avif/tree/master/testFiles/Microsoft">Microsoft Avif testFiles</a></li>
 </ul>
+</div></div>
 
-  </div>
-
-</div>
-
-<h2 id="av1--avif-news">AV1 / AVIF News</h2>
-<h3 id="2020">2020</h3>
+<h2 id="av1--avif-news">
+  AV1 / AVIF News
+  <a class="anchor" href="#av1--avif-news">#</a>
+</h2>
+<h3 id="2020">
+  2020
+  <a class="anchor" href="#2020">#</a>
+</h3>
 <ul>
 <li>20 Mar <a href="https://code.videolan.org/videolan/dav1d/-/tags/0.7.0">Dav1d 0.7.0 released (Improves the speed on all platforms)</a></li>
-<li>19 Mar <a href="https://aomedia.googlesource.com/aom/+/refs/tags/v2.0.0">libaom 2.0.0 released (the long master branch gets to a stable state)</a></li>
+<li>19 Mar <a href="https://aomedia.googlesource.com/aom/&#43;/refs/tags/v2.0.0">libaom 2.0.0 released (the long master branch gets to a stable state)</a></li>
 <li>4 May <a href="https://github.com/AOMediaCodec/libavif/blob/master/CHANGELOG.md">libavif 0.7.3 released (native lossless mode)</a></li>
 <li>3 May <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1625363">Firefox 77.0a1 support AVIF disable by default </a></li>
 <li>30 Apr <a href="https://www.xda-developers.com/youtube-for-android-tv-adopts-av1-video-codec-in-certain-devices/">YouTube for Android TV enable AV1 video codec support on capable plaforms</a></li>
@@ -283,7 +283,10 @@ https://github.com/alex-shpak/hugo-book
 <li>3 Jan <a href="http://www.lgnewsroom.com/2020/01/lg-to-unveil-2020-real-8k-tv-lineup-featuring-next-gen-ai-processor-at-ces-2020/">LG will support AV1</a></li>
 <li>2 Jan <a href="https://github.com/xiph/rav1e/releases/tag/v0.2.1">rav1e 0.2.1 released</a></li>
 </ul>
-<h3 id="2019">2019</h3>
+<h3 id="2019">
+  2019
+  <a class="anchor" href="#2019">#</a>
+</h3>
 <ul>
 <li>20 Dec <a href="https://github.com/OpenVisualCloud/SVT-AV1/releases/tag/v0.8.0">SVT-AV1 v0.8.0 release</a></li>
 <li>18 Dec <a href="https://github.com/xiph/rav1e/releases/tag/v0.2.0">rav1e 0.2.0 released</a></li>
@@ -306,17 +309,21 @@ https://github.com/alex-shpak/hugo-book
 <li>20 Mar <a href="https://code.videolan.org/videolan/dav1d/-/tags/0.2.1">Dav1d 0.2.1 released</a></li>
 <li>4 Mar <a href="https://code.videolan.org/videolan/dav1d/-/tags/0.2.0">Dav1d 0.2.0 released</a></li>
 </ul>
-<h3 id="2018">2018</h3>
+<h3 id="2018">
+  2018
+  <a class="anchor" href="#2018">#</a>
+</h3>
 <ul>
 <li>11 Dec <a href="https://code.videolan.org/videolan/dav1d/-/tags/0.1.0">Dav1d 0.1.0 released</a></li>
-<li>25 Jun <a href="https://aomedia.googlesource.com/aom/+/refs/tags/v1.0.0">libaom 1.0.0 released</a></li>
+<li>25 Jun <a href="https://aomedia.googlesource.com/aom/&#43;/refs/tags/v1.0.0">libaom 1.0.0 released</a></li>
 </ul>
 </article>
  
+      
 
       <footer class="book-footer">
         
-  <div class="flex justify-between">
+  <div class="flex flex-wrap justify-between">
 
 
 
@@ -325,7 +332,10 @@ https://github.com/alex-shpak/hugo-book
 </div>
 
  
-        
+        <a href="mailto:web@gaap.dev">web@gaap.dev</a>
+      </footer>
+
+      
   
   <div class="book-comments">
 <div id="disqus_thread"></div>
@@ -351,8 +361,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
   
  
-      </footer>
-      <a href="mailto:web@gaap.dev">web@gaap.dev</a>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     
